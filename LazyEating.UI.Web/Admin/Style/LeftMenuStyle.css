@@ -1,0 +1,14 @@
+﻿
+body,ul,li,p,h1,h2{ margin:0px; padding:0px;border:0; background:#c6c9ce; }
+body{ background:#ffffff;}
+.rolinList{ width:200px; height:auto; margin-top:10px; text-align:left}
+.rolinList li{margin-bottom:1px;border:1px solid #DADADA}
+.rolinList li h2{ height:40px;  background:#fff; font-size:14px; line-height:40px; text-align:center; color:#333; cursor:pointer}
+.content{ height:auto;  background:#fff;  background:#FAFAFA; text-align:center;}
+.content p a{ text-decoration:none; font-size:16px; height:30px; line-height:30px;}
+.content p:hover{ color:#006600;}
+
+.content  
+{
+    background-color:#ffffff;    
+    border:2px solid #A6CADC;}

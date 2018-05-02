@@ -1,0 +1,64 @@
+﻿/******************************************************/
+#contenter{
+	margin:0 auto;
+	width:950px;
+	padding:30px 25px 25px 25px;
+	background-color:#FFEFBC;
+}
+.content{
+	width:900px;
+	height:auto;
+	border:solid #FFD555 1px;
+	padding:30px 25px 25px 25px;
+	background-color:#ffffff;
+}
+.contenter h1{ margin-bottom:10px;}
+.clear{clear:both;}
+/********************************************************/
+
+/*********************************************/
+.OrderDetail{  width:800px; margin:0 auto;}
+.BasicInformation{ width:780px;  border-bottom:#FFD555 solid 1px; margin:0 auto;}
+.BasicInformation h3{ margin:10px 0px; padding:0px;}
+.BasicInformation p{ margin:5px; margin-left:20px; padding:0px;}
+.GoodsDetail{ }
+.OrderTotal{ float:right; margin-right:10px; }
+.OrderTotal div{ width:170px; border-bottom:#FFD555 solid 1px;}
+.OrderTotal p{text-align:right; margin:3px 0;}
+.OrderTotal h3 span{ color:#F00}
+.OrderDetail .OrderTotal h3{ text-align:right; margin:5px 0;}
+.GoodsDetail table {width:780px;margin:10px auto;text-align:center;border-collapse:collapse;}/*细线表格代码*/
+.GoodsDetail table td{height:22px;border:1px solid #FFD555;}/*细线表格线条颜色*/
+.GoodsDetail table th{line-height:30px;height:30px;font-weight:bold;text-align:center;background:#FFEFBC;}
+.GoodsDetail table tr{border:1px solid #FFD555;}
+.GoodsDetail table tr td{text-align:center;}
+/*********************************************/
+.submit{margin-top:20px;width:130px;height:30px;font-size:14px;margin-right:10px;border-radius:5px;
+		border:0px;font-weight:bold;color:#ffffff;background-color:#222222;}
+.submit:hover{background-color:#000000;}
+/******************************************************/
+
+.inputTxt{
+	height:30px;
+	font-size:16px;
+	border:solid 1px #FFDD00;
+}
+
+.butnAdd{
+	width:44px;
+	height:10px;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 8px;
+	border-radius:5px;
+	background-color:#333333;
+}
+/******************************************************/
+.payment{ width:500px; height:300px; margin:50px auto 30px auto;}
+.payment{ background-color:#FFEFBC; border:#FFD555 solid 1px;}
+.payment h2{ text-align:center; margin-top:50px;}
+.payment div{width:130px; margin:100px auto 0px auto;}
+.payment p{ text-align:center;}
+.btnPay{width:130px;height:30px;font-size:14px;margin-right:10px;border-radius:5px;
+		border:0px;font-weight:bold;color:#ffffff;background-color:#222222;}
+.btnPay:hover{background-color:#000000;}

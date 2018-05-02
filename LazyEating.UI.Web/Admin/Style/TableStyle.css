@@ -1,0 +1,38 @@
+﻿.tblListView {width:700px;margin:20px auto;text-align:center;border-collapse:collapse;}/*细线表格代码*/
+.tblListView td{height:22px;border:1px solid #999;}/*细线表格线条颜色*/
+.tblListView th{line-height:30px;height:30px;font-weight:bold;text-align:center;background:#c5c5c5;}
+.tblListView tr{border:1px solid #999;}
+.tblListView tr td{text-align:center;}
+.tblListView tr:hover{ background-color:#c5c5c5;}
+.dataPager { width:700px; float:right;}
+
+
+.divTblDetail {margin:20px 0px 0px 20px; }
+
+
+.tblDetail { margin:8px auto; border-collapse:collapse; width:600px; }
+.tblDetail th,.tblDetail td { padding:6px; vertical-align:middle; border:1px dotted #DDD; border-collapse:collapse; }
+.tblDetail th { background:#DFDFDF; text-align:right; }
+.tblDetail td { background:#F1F1F1; text-align:left; }
+.tblDetail ddlInput{ width:100px;}
+
+
+/*********************************************/
+.OrderDetail{ width:700px; border:#DADADA solid 1px; margin:10px auto;}
+.OrderDetail .OrderDetailTitle{ background-color:#EDEDED; margin:0px; padding:3px 0;}
+.OrderDetail .OrderDetailTitle h3{ margin:0px; padding:0px; margin-left:5px;}
+.OrderDetail .OrderDetailTitle h3 span{ color:#f00;}
+.OrderDetail .BasicInformation{ border-bottom:#999 solid 1px; margin:10px;}
+.OrderDetail .BasicInformation h3{ margin:0px; padding:0px;}
+.OrderDetail .BasicInformation p{ margin:0px; margin-left:10px; padding:0px;}
+.OrderDetail .GoodsDetail{ }
+.OrderDetail .OrderTotal{ float:right;}
+.OrderDetail .OrderTotal div{ width:170px; border-bottom:#999 solid 1px;}
+.OrderDetail .OrderTotal p,.OrderDetail .OrderTotal h3{ text-align:right; margin:3px 0;}
+.OrderDetail .OrderTotal h3 span{ color:#F00}
+.OrderDetail .GoodsDetail table {width:680px;margin:10px auto;text-align:center;border-collapse:collapse;}/*细线表格代码*/
+.OrderDetail .GoodsDetail table td{height:22px;border:1px solid #999;}/*细线表格线条颜色*/
+.OrderDetail .GoodsDetail table th{line-height:30px;height:30px;font-weight:bold;text-align:center;background:#c5c5c5;}
+.OrderDetail .GoodsDetail table tr{border:1px solid #999;}
+.OrderDetail .GoodsDetail table tr td{text-align:center;}
+/*********************************************/

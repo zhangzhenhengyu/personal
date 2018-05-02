@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.master.cs" Inherits="LazyEating.UI.Web.Index" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+<title></title>
+<link href="css/head.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder ID="ContentHead" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body style=" width:1000px; margin:0px auto;">
+<form runat="server">
+<div class="header">
+    <div class="logo"><a href="Default.aspx"><img src="Css/images/Food_logo.jpg" alt="" style="height: 78px; width: 462px;" /></a></div>
+
+    <div id="divLoginNO" runat="server">
+        <div class="login">			
+    	    用户名
+                <asp:TextBox ID="txtUserName" CssClass="textbox" runat="server"></asp:TextBox>
+            密码
+                <asp:TextBox ID="txtPassword" CssClass="textbox" runat="server" 
+                TextMode="Password"></asp:TextBox>
+            <asp:Button ID="btnLogin" CssClass="button" Text="登录" runat="server" 
+                onclick="btnLogin_Click" />
+        </div>
+        <div class="register"><a href="Register.aspx">注册</a>&nbsp;|&nbsp;<a href="#">忘记密码？</a>&nbsp;|&nbsp;<a href="#">订单查询</a></div>
+        
+    </div>
+    
+    <div id="divLoginYes" runat="server">    
+	    <div class="loginUser">
+		    <div>你好！<%=loginUser.UserName %></div>
+		    <div>
+                <asp:LinkButton ID="lbtnEsc" runat="server" onclick="lbtnEsc_Click">退出</asp:LinkButton>
+                &nbsp;|&nbsp;
+                <a href="#">我的账户信息</a>
+                &nbsp;|&nbsp;
+                <a href="#">订单查询</a>
+            </div>
+	    </div>    
+    </div>
+
+	<div class="nav">
+    	<div class="check"><a href="Foods.aspx">浏览菜单</a></div>
+        <div class="check"><a href="Foods.aspx">开始订餐</a></div>
+	</div>
+</div>	
+
+<div id="main">
+    <asp:ContentPlaceHolder ID="ContentMain" runat="server">  </asp:ContentPlaceHolder>
+</div>
+<div class="clear"></div>
+<style type="text/css">
+.footer{ font-size:14px; margin:10px 0px; }
+.footer span{ float:right; }
+.footer a{ text-decoration:none; color:#000000; }
+.footer a:hover{ color:red; }
+</style>
+<div class="footer">
+    <a href="#">网站条款</a>&nbsp;|&nbsp;
+    <a href="#">订餐须知</a>&nbsp;|&nbsp;
+    <a href="#">隐私条款</a>&nbsp;|&nbsp;
+    <a href="#">常见问题解答</a>
+	<span>COPYRIGHT &copy;南方美食版权所有</span>
+</div>
+</form>
+</body>
+</html>

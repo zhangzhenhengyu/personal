@@ -1,0 +1,26 @@
+*{
+	padding:0;
+	margin:0;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+.contenter{
+	width:1000px;
+	margin:0 auto;
+}
+.main_top{
+	width:1000px;
+}
+.main_botm
+{
+	width:250px;
+	height:160px;
+	float:left;
+}
+.footer{
+	width:1000px;
+	font-size:30px;
+	margin-left:-7px;
+}

@@ -1,0 +1,29 @@
+*{margin:0;padding:0;}
+a{
+	text-decoration:none;
+	color:#FFDD00;
+}
+.header {
+	font-size: 12px;
+	height: 83px;
+	width: 1000px;
+	margin: 0 auto;
+	background:url(images/head_bg.png) repeat-x;
+}
+.logo {
+	height: 85px;
+	width: 350px;
+	float: left;
+	font-size:36px;
+}
+.right{
+	width:200px;
+	height:40px;
+	float:right;
+	margin-top:12px;
+	margin-right:18px;
+	font-size:12px;
+	line-height:25px;
+	font-weight:bold;
+	color:#ffffff;
+}

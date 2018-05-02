@@ -1,0 +1,44 @@
+.goods{
+	width:699px;
+	float:left;
+}
+.goods_text{
+	padding:10px 20px;
+}
+.pruduct{
+	width:223px;
+	float:left;
+	color:#ffffff;
+	margin-right:10px;
+	margin-top:10px;
+}
+.name{
+	margin-top:10px;
+	font-size:16px;
+	font-weight:bold;
+}
+.price{
+	margin-top:10px;
+	font-size:16px;
+	margin-bottom:10px;
+}
+.butnAdd{
+	width:48px;
+	height:12px;
+    color:white;
+	font-size:10px;
+	font-weight:bold;
+	padding:4px 8px;
+	border-radius:5px;
+	background-color:#333333;
+}
+.goods1 div{ background-color:#5A362D; }
+.goods2 div{ background-color:#9D262C; }
+.goods3 div{ background-color:#C7810D; }
+.goods4 div{ background-color:#680035; }
+.goods5 div{ background-color:#275A87; }
+.goods6 div{ background-color:#679E3D; }
+a{
+	color:#ffffff;
+	text-decoration:none;
+}

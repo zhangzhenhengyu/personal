@@ -1,0 +1,15 @@
+.footer{
+	margin:0 auto;
+	width:950px;
+	font-size:14px;
+}
+.footer span{
+	float:right;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+a:hover{
+	color:red;
+}

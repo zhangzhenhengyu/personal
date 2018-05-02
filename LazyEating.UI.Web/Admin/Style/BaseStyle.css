@@ -1,0 +1,16 @@
+﻿
+.clear{clear:both;}
+
+body,ul,li,p,h1,h2{ margin:0px; padding:0px;border:0; background:#c6c9ce; }
+body{ font-size:12px; font-family:Arial, Helvetica, sans-serif,"宋体"; background:#ffffff;}
+li{ list-style:none}
+input:focus{ border:#96C2F1 solid 1px; background:#EFF7FF; }
+
+.head{ height:60px; margin:0px; padding:20px 0; width:100%; background:#30323A;}
+.head .adminLogo{ float:left;  margin-left: 40px;}
+.head .adminUser{ float:right; margin-right:30px;}
+
+.black12{ font-size:12px; color:#000; }
+.white16{ font-size:16px; color:#FFF; }
+.white14{ font-size:14px; color:#fff; }
+
